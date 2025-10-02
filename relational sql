@@ -1,0 +1,165 @@
+Basic Concept Questions
+
+What is a Relational Database?
+
+What are the key features of an RDBMS?
+
+Can you give examples of relational databases?
+
+✅ Tip: Keep the answer simple: tables, rows, columns, schema, examples.
+
+2. Primary Key / Foreign Key
+
+What is a Primary Key and why is it important?
+
+What is a Foreign Key and how does it work?
+
+Can you explain the difference between a Primary Key and Foreign Key?
+
+✅ Tip: Use small examples to explain; draw a table if possible.
+
+3. Workflow / Operations
+
+Explain the workflow of a relational database.
+
+How does an RDBMS process queries?
+
+What happens when you insert/update/delete data?
+
+✅ Tip: Mention SQL queries, DBMS processing, ACID rules, and returning results.
+
+4. Advanced / Conceptual
+
+What is ACID compliance, and why is it important?
+
+How do tables relate to each other in a relational database?
+
+What happens if two tables are not properly linked with foreign keys?
+
+5. Scenario-Based
+
+“Suppose you have a Users table and an Orders table. How would you link them?”
+
+“If two users have the same UserID, what problem could occur?”
+
+✅ Tip: Always explain with a real-world example; it’s easier for the interviewer to follow.
+
+If you want, I can create a full list of 10–15 likely interview questions with short, ready-to-say answers based on what we discussed. This will make your preparation faster. Do you want me to do that?
+
+You said:
+provide me the answer for all 
+ChatGPT said:
+
+Sure! Here’s a ready-to-use set of 12 common RDBMS interview questions with concise, clear answers based on what we’ve discussed. You can memorize and use them directly:
+
+1. What is a Relational Database (RDBMS)?
+
+Answer:
+A relational database stores data in tables made of rows (records) and columns (fields). Tables are connected using a schema, which defines the structure and relationships. Examples: MySQL, PostgreSQL, Oracle.
+
+2. What are the key features of an RDBMS?
+
+Answer:
+
+Tables with rows and columns
+
+Schema-based structure
+
+Primary and Foreign Keys for uniqueness and relationships
+
+ACID compliance for reliable transactions
+
+Ideal for structured data
+
+3. What is a Primary Key?
+
+Answer:
+A Primary Key is a column (or combination of columns) that uniquely identifies each row in a table. Example: UserID in a Users table.
+
+4. What is a Foreign Key?
+
+Answer:
+A Foreign Key is a column in one table that refers to the Primary Key in another table, creating a relationship between tables. Example: UserID in Orders table referencing Users table.
+
+5. Difference between Primary Key and Foreign Key
+
+Answer:
+
+Primary Key: Unique ID for rows in its own table.
+
+Foreign Key: References a primary key in another table to link data.
+
+6. What is a Schema in a database?
+
+Answer:
+A schema is the blueprint of a database. It defines tables, columns, data types, and relationships between tables.
+
+7. Explain the workflow of a relational database.
+
+Answer:
+
+User sends a request (SQL query)
+
+DBMS interprets the query
+
+DBMS locates data according to the schema
+
+Retrieves or modifies data (ACID rules applied)
+
+Returns results to the user
+
+8. What is ACID compliance?
+
+Answer:
+ACID ensures reliable database transactions:
+
+Atomicity: All parts of a transaction succeed or fail together
+
+Consistency: Data remains valid after transactions
+
+Isolation: Transactions don’t interfere with each other
+
+Durability: Changes are permanent even after system failure
+
+9. Give examples of relational databases.
+
+Answer:
+
+MySQL
+
+PostgreSQL
+
+Oracle
+
+Microsoft SQL Server
+
+10. What is a Query?
+
+Answer:
+A query is a request to the database to retrieve or modify data, usually written in SQL.
+
+11. Who are the users of a database?
+
+Answer:
+Users can be:
+
+End users: People using applications to access data
+
+Administrators: Manage security, backup, and performance
+
+Applications/systems: Programs interacting with the database
+
+12. Why do we use RDBMS instead of simple files?
+
+Answer:
+RDBMS provides:
+
+Organized storage in tables
+
+Relationships between data
+
+Easy querying with SQL
+
+Security, backup, and consistency (ACID compliance)
+
+Faster and more reliable than managing raw files
