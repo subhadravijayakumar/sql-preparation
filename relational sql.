@@ -163,3 +163,25 @@ Easy querying with SQL
 Security, backup, and consistency (ACID compliance)
 
 Faster and more reliable than managing raw files
+
+
+NoSQL Databases
+"NoSQL" stands for "Not Only SQL". These databases are designed to handle unstructured or semi-structured data, such as text, images, videos or sensor data. They don’t rely on the traditional table format.
+
+Flexible data models (no fixed schema).
+Scales horizontally for high-volume data.
+Often optimized for specific use cases like graphs or time-series data.
+Main Sub-Types of NoSQL Databases:
+
+TypesofNoSQLgraph
+Document Databases – Store data as JSON-like documents. (Example: MongoDB)
+Key-Value Stores – Store simple key–value pairs for fast lookups. (Example: Redis)
+Columnar Databases – Store data by columns for analytics. (Example: Apache Cassandra)
+Graph Databases – Store nodes & relationships for connected data. (Example: Neo4j)
+ACID Properties
+ACID stands for Atomicity, Consistency, Isolation, and Durability—four essential principles that ensure your database transactions are reliable, accurate, and secure.
+
+Atomicity: Ensures transactions complete fully or not at all.
+Consistency: Ensures the database moves from one valid state to another.
+Isolation: Ensures that multiple transactions can happen at the same time without affecting each other.
+Durability: Saves changes permanently after completion.
